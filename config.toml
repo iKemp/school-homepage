@@ -1,3 +1,161 @@
-languageCode = "en-us"
-title = "My New Hugo Site"
-baseurl = "http://example.org/"
+baseurl = "https://example.org/"
+languageCode = "de-DE"
+title = "Grundschule Anzefahr-Niederwald"
+theme = "hugo-creative-theme"
+googleAnalytics = ""
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more information take a look at the README.
+
+	# To provide some metadata for search engines feel free to add some
+	# information about you and your website.
+	name = "Your name"
+	description = "Your description"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "Grundschule Anzefahr-Niederwald"
+
+		[params.navigation.links]
+			about     = "About"
+			services  = "Services"
+			portfolio = "Portfolio"
+      team      = "Team"
+			contact   = "Contact"
+      location  = "Location"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "Hier bin ich Mensch, hier darf ich's sein."
+		subtitle   = "Johann Wolfgang von Goethe  "
+		buttonText = "Find out more"
+
+
+	# About section
+	[params.about]
+		headline    = "Unsere Schule"
+		description = "<p>Die Grundschule Anzefahr-Niederwald ist eine kleine Grundschule südlich von Kirchhain im schönen Ohmtal gelegen. </p><p>Der Unterricht findet in 4 Lerngruppen an zwei Standorten statt: </p><p>Am Standort Anzefahr werden im laufenden Schuljahr 14 Kinder in Klasse 3 und 20 Kinder in Klasse 4 unterrichtet. </p><p>Am Standort Niederwald werden aktuell 18 Kinder in Klasse 2 und 21 Kinder in Klasse 1 unterrichtet. Dort befindet sich auch die Schulbetreuung. </p><p>Der Sportunterricht findet im Bürgerhaus Anzefahr statt.</p>"
+		buttonText  = "Get started!"
+
+
+	# Service section
+	[params.services]
+		headline = "Wir stärken unsere Kinder für die Zukunft"
+
+        [[params.services.list]]
+            icon = "fa-paper-plane"
+            title = "Selbständigkeit"
+            description = "Unsere Schüler werden zu demokratischem Denken und Handeln angeregt. Sie lernen selbständiges Lernen und sie werden sozialkompetent, selbstbewusst und stark gemacht."
+
+        [[params.services.list]]
+            icon = "fa-diamond"
+            title = "Förderung"
+            description = "Unsere Schüler werden individuell gefördert und gefordert. Sie lernen außerschulische Lernorte kennen und führen standortübergreifende Projekte durch."
+
+    		[[params.services.list]]
+            icon = "fa-search"
+            title = "Transparenz"
+            description = "Wir öffnen unsere Schule im Inneren und nach außen hin. Unsere Lehrer gehen professionell und offen miteinander um."
+
+        [[params.services.list]]
+            icon = "fa-heart"
+            title = "Geborgenheit"
+            description = "Unsere Schüler sollen sich in der Schule und der Gemeinschaft wohl fühlen. Wir achten auf gesunde Ernährung und Bewegung."
+
+
+    # Portfolio modals
+	[params.portfolio.modal]
+        client = "Client"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+    # Aside section
+	[params.aside]
+		headline = "Get the Creative Theme for Hugo"
+
+		[params.aside.button]
+			text = "Download now"
+			link = "//github.com/digitalcraftsman/hugo-creative-theme"
+
+	# Contact section
+	[params.contact]
+		headline = "Let's Get In Touch!"
+		description = "Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!"
+		phone = "123-456-6789"
+		email = "feedback@startbootstrap.com"
+
+	# Google Maps section
+	[params.location]
+	 	latitude  = "34.007850"
+	 	longitude = "-118.499305"
+	 	maps_api_key = ""
+
+  # Team section
+  [params.team]
+    enable = true
+    # Possibility to center items
+    #center = true
+    title = "Our amazing team"
+    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+
+    # All team member's pictures are stored under 'static/img/team'.
+    # Replace them with your own too.
+    # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
+    [[params.team.members]]
+      img = "Katja_Wesselx.jpg"
+      name = "Kay Garland"
+      position = "Lead Designer"
+      reportsTo = "CTO"
+      livesIn = "[Munich, Germany](#some-maps-url)"
+      scope = [
+        "UX for [member dashboard](#)",
+        "Maintainer for [awesome-project](#)",
+        "Open Source [community management](#)"
+      ]
+      # For bio markdown and even multiline strings are available.
+      bio = """Kay is an awesome Lead Designer with heaps of experience in the field of UX.
+She worked at Pied Piper for years until they went belly up."""
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-facebook", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+    [[params.team.members]]
+      img = "1.jpg"
+      name = "Larry Parker"
+      position = "Lead Marketer"
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-facebook", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+    [[params.team.members]]
+      img = "3.jpg"
+      name = "Diana Pertersen"
+      position = "Lead Developer"
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-facebook", "#"],
+        ["fa-linkedin", "#"]
+      ]
