@@ -108,6 +108,11 @@ Der Sportunterricht findet im Bürgerhaus Anzefahr statt."""
 		fax = "+49 6422 898282"
 		email = "poststelle@grundschule.anzefahr-niederwald.schulverwaltung.hessen.de"
 
+		[params.contact.address]
+			name = "Grundschule Anzefahr-Niederwald"
+			street = "Obergasse 20"
+			site = "35274 Kirchhain"
+
 	# Google Maps section
 	[params.location]
 	 	latitude  = "50.82812"
