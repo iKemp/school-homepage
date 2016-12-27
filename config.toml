@@ -112,16 +112,12 @@ Der Sportunterricht findet im Bürgerhaus Anzefahr statt."""
 	[params.location]
 	 	latitude  = "34.007850"
 	 	longitude = "-118.499305"
-	 	maps_api_key = ""
-		 
-		[[params.location.sites]]
-		 	latitude  = "34.007850"
-	 		longitude = "-118.499305"
-			
-		[[params.location.sites]]
-		 	latitude  = "134.007850"
-	 		longitude = "-118.499305"
-
+		maps_api_key = ""
+		
+		# kinda dirty way to add second marker for anzefahr
+		latitude2  = "34.008851"
+	 	longitude2 = "-118.499305" 
+	 	
   # Team section
   [params.team]
     enable = true

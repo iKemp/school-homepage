@@ -4,6 +4,8 @@
     <div class="hidden">
         <input id="gmap-lat" value="{{ .Site.Params.location.latitude }}" />
         <input id="gmap-lng" value="{{ .Site.Params.location.longitude }}" />
+        <input id="gmap-lat2" value="{{ .Site.Params.location.latitude2 }}" />
+        <input id="gmap-lng2" value="{{ .Site.Params.location.longitude2 }}" />
     </div>
     <a href="https://www.google.com/maps?z=16&q={{ .Site.Params.location.latitude }},{{ .Site.Params.location.longitude }}&ll={{ .Site.Params.location.latitude }},{{ .Site.Params.location.longitude }}">
         <div id="map">
