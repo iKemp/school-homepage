@@ -45,13 +45,19 @@ function map () {
         style: 'SMALL',
         position: 'TOP_LEFT'
       },
-      panControl: false,
-      streetViewControl: false,
-      mapTypeControl: false,
-      overviewMapControl: false,
+      panControl: true,
+      streetViewControl: true,
+      mapTypeControl: true,
+      overviewMapControl: true,
       scrollwheel: false,
-      draggable: false,
-      styles: styles
+      draggable: true,
+      fitZoom: true,
+      zoom: 12,
+      styles: styles,
+      click: function(e) {
+        var url = 'https://www.google.com/maps?z=16&q='+lat+','+lng+'&ll='+lat+','+lng+'';
+        window.open(url,'_blank');
+      },
     })
 
     map.addMarker({
@@ -64,6 +70,12 @@ function map () {
       } */
     })
 
+    map.drawOverlay({
+      lat: lat,
+      lng: lng,
+      content: '<div class="overlay">Niederwald</div>'
+    });
+
     map.addMarker({
       lat: lat2,
       lng: lng2,
@@ -73,5 +85,11 @@ function map () {
       content: '<p>HTML Content</p>'
       } */
     })
+
+    map.drawOverlay({
+      lat: lat2,
+      lng: lng2,
+      content: '<div class="overlay">Anzefahr</div>'
+    });
   }
 }
