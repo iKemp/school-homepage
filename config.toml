@@ -32,12 +32,11 @@ googleAnalytics = ""
 		brand = "Grundschule Anzefahr-Niederwald"
 
 		[params.navigation.links]
-			about     = "About"
-			services  = "Services"
+			about     = "Über uns"
+			services  = "Ziele"
 			portfolio = "Portfolio"
-      team      = "Team"
-			contact   = "Contact"
-      location  = "Location"
+            team      = "Team"
+			contact   = "Kontakt"
 
 
 	# Hero section
@@ -45,7 +44,7 @@ googleAnalytics = ""
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
 		slogan     = "Hier bin ich Mensch, hier darf ich's sein."
 		subtitle   = "Johann Wolfgang von Goethe  "
-		buttonText = "Find out more"
+		buttonText = "Wollen Sie mehr erfahren?"
 
 
 	# About section
@@ -57,7 +56,7 @@ Am Standort Anzefahr werden im laufenden Schuljahr 14 Kinder in Klasse 3 und 20 
 Am Standort Niederwald werden aktuell 18 Kinder in Klasse 2 und 21 Kinder in Klasse 1 unterrichtet. Dort befindet sich auch die Schulbetreuung. 
 
 Der Sportunterricht findet im Bürgerhaus Anzefahr statt."""
-		buttonText  = "Get started!"
+		#buttonText  = "Get started!"
 
 
 	# Service section
