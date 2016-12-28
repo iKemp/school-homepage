@@ -94,11 +94,15 @@ Der Sportunterricht findet im Bürgerhaus Anzefahr statt."""
 
     # Aside section
 	[params.aside]
-		headline = "Get the Creative Theme for Hugo"
+		headline = "Interessieren Sie sich für den Förderverein?"
 
-		[params.aside.button]
-			text = "Download now"
-			link = "//github.com/digitalcraftsman/hugo-creative-theme"
+		[[params.aside.button]]
+			text = "Flyer"
+			link = "/download/Flyer.pdf"
+
+            [[params.aside.button]]
+			text = "Beitrittserklaerung"
+			link = "/download/Beitrittserklaerung.pdf"
 
 	# Contact section
 	[params.contact]
