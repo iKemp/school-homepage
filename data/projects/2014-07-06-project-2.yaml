@@ -5,4 +5,13 @@ img: owl.jpg
 client: Start Bootstrap
 clientLink: "#"
 category: Klasse
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit.
+description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit."
+galleries:
+    - 
+        thumb: https://lh3.googleusercontent.com/0zrBY8a5cZar693VZw55g9i3ceeLg5ERjobHxnUWx4uRHJB2xmcEsHYWy2zRaY7AEGMdxEC31XyHsBWWse130AONHka4RiOalkE16owIxsZkVAWlaUoQn38ulaTKDlIAaoreLuKTkjwPICli_fwhCGftR_QlX7ql65f-a0fSbOWdKgNBsJ8HcCwisIpG0uQ7fvfrEYXbLr-AE4p4uZBI_wFxpsjmsL7OPI5SlMumeLm5YjxR2F_p0j7MDqn5xJSoNSoRppzDcy546bzjJnULw-cqn0SgnRtiehkMYmH0EN0fZur3jX_eeNap-6WxJo0rn1TF4kVKkUyKQc4KBKUXGh8uOG7T5_wmFq4inUokT1u3vkx0mdUoy7ia9JOfrj19MJRAaxzQFWdc1OqNE_5Q7UrgNbXQm1P62KzTtPqhM7v3yoEKEmvchyXYHHCfehSXuErlFvpSKvOb0Ci91ioq9swxMeKhAJ4bGGJv1t3nqiQfOMcXWXAJ4XfuIumHBMH10r09f68Y1zcpqbV2l2tvnBho4iWEnLjhbdvXcgeIQKNE0anpO354kF46C7L1-XZTOxuO9VYttTqud5kf6uWNB7n07X7nkmVLGI52NKvcUzfWhA2z_JBjxchf8TdgtV2Sqy3unasPKbPeSqcYU7jUMoum6qlX2jtgu7IEsGCqOA=w694-h489-no 
+        link: https://goo.gl/photos/RcDFt8z4RWxHtjKW6
+        title: Einschulung 
+    - 
+        thumb: https://lh3.googleusercontent.com/0zrBY8a5cZar693VZw55g9i3ceeLg5ERjobHxnUWx4uRHJB2xmcEsHYWy2zRaY7AEGMdxEC31XyHsBWWse130AONHka4RiOalkE16owIxsZkVAWlaUoQn38ulaTKDlIAaoreLuKTkjwPICli_fwhCGftR_QlX7ql65f-a0fSbOWdKgNBsJ8HcCwisIpG0uQ7fvfrEYXbLr-AE4p4uZBI_wFxpsjmsL7OPI5SlMumeLm5YjxR2F_p0j7MDqn5xJSoNSoRppzDcy546bzjJnULw-cqn0SgnRtiehkMYmH0EN0fZur3jX_eeNap-6WxJo0rn1TF4kVKkUyKQc4KBKUXGh8uOG7T5_wmFq4inUokT1u3vkx0mdUoy7ia9JOfrj19MJRAaxzQFWdc1OqNE_5Q7UrgNbXQm1P62KzTtPqhM7v3yoEKEmvchyXYHHCfehSXuErlFvpSKvOb0Ci91ioq9swxMeKhAJ4bGGJv1t3nqiQfOMcXWXAJ4XfuIumHBMH10r09f68Y1zcpqbV2l2tvnBho4iWEnLjhbdvXcgeIQKNE0anpO354kF46C7L1-XZTOxuO9VYttTqud5kf6uWNB7n07X7nkmVLGI52NKvcUzfWhA2z_JBjxchf8TdgtV2Sqy3unasPKbPeSqcYU7jUMoum6qlX2jtgu7IEsGCqOA=w694-h489-no 
+        link: https://goo.gl/photos/RcDFt8z4RWxHtjKW6
+        title: Einschulung 
