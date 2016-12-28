@@ -6,12 +6,8 @@ client: Start Bootstrap
 clientLink: "#"
 category: Klasse
 description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit."
-galleries:
+galleries: 
     - 
-        thumb: https://lh3.googleusercontent.com/0zrBY8a5cZar693VZw55g9i3ceeLg5ERjobHxnUWx4uRHJB2xmcEsHYWy2zRaY7AEGMdxEC31XyHsBWWse130AONHka4RiOalkE16owIxsZkVAWlaUoQn38ulaTKDlIAaoreLuKTkjwPICli_fwhCGftR_QlX7ql65f-a0fSbOWdKgNBsJ8HcCwisIpG0uQ7fvfrEYXbLr-AE4p4uZBI_wFxpsjmsL7OPI5SlMumeLm5YjxR2F_p0j7MDqn5xJSoNSoRppzDcy546bzjJnULw-cqn0SgnRtiehkMYmH0EN0fZur3jX_eeNap-6WxJo0rn1TF4kVKkUyKQc4KBKUXGh8uOG7T5_wmFq4inUokT1u3vkx0mdUoy7ia9JOfrj19MJRAaxzQFWdc1OqNE_5Q7UrgNbXQm1P62KzTtPqhM7v3yoEKEmvchyXYHHCfehSXuErlFvpSKvOb0Ci91ioq9swxMeKhAJ4bGGJv1t3nqiQfOMcXWXAJ4XfuIumHBMH10r09f68Y1zcpqbV2l2tvnBho4iWEnLjhbdvXcgeIQKNE0anpO354kF46C7L1-XZTOxuO9VYttTqud5kf6uWNB7n07X7nkmVLGI52NKvcUzfWhA2z_JBjxchf8TdgtV2Sqy3unasPKbPeSqcYU7jUMoum6qlX2jtgu7IEsGCqOA=w694-h489-no 
-        link: https://goo.gl/photos/RcDFt8z4RWxHtjKW6
-        title: Einschulung 
-    - 
-        thumb: https://lh3.googleusercontent.com/pE587_Ck2SPTMvHXA48p3AYuwLuhxxbBm4l3V_unBU0whXUd1JxuWda8PmlqKKX9-vCvCp-RPM6csoRve6ytkjg71TFHYTx88QpxoQDGNi86qpCFDxalJkj4h7pSkl10mJ8Bgb3o9PpspdoLI9K_R_UNFaLU-jImVvQp7er6KgwWzrS6_qVCATO1hNSfah6-NX_kgVSLVL-qZ5Ow1VfteH1j_LloDk0TreAHs8nt4J91Qe3JANJJsBH7MsFyR5sd3qd7dPeb6VeeS34ciyKI-S5IuiZ1LPK0E57n7OWVU1Y1oUip4eF0_tJWBz8BoL46Yn08slxkp_Di4L4H8ki5MccPxJmoI1oQQLp--6papibeOkKDRpLOUNWD0L_eLMVI101WAUBDfspTy2ar20AJKr6kXzF6q7HIjUFrwySUCi3nXpfAVsI_wi1HRuysK53YYz3RP-EIp08NIWFuxLPgXoDrSJHo9EEWu2PTVu5fnMzi3ZdP7S91QQADX4cUsKB50k6VCKWATH72EPpmpzTfwSV3CXqnLWc5A5Ii5jfmmfGW5pgwtElwp-wIzCHNEhElxj8JOHhdJlnfQJK_TA8iSxP6jsd4yQJufNN_nTfu2jpnj_wI5j6rarIXaUvZwoTLwPYmExldXHrw3KRja6Ok2FDdjW3L5XUsEZRNj6aQcw=w694-h489-no  
+        thumb: owl_einschulung.jpg
         link: https://goo.gl/photos/RcDFt8z4RWxHtjKW6
         title: Einschulung 
