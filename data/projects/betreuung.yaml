@@ -2,7 +2,7 @@ modalID: 5
 title: Betreuung
 date: 2014-07-09
 img: betreuung.jpg
-client: Start Bootstrap
-clientLink: "#"
+#client: Start Bootstrap
+#clientLink: "#"
 category: Angebot
 description: Die Betreuung ist täglich bis 15 Uhr geöffnet. Auf Wunsch gibt es eine warme Mittagsmahlzeit. Bei schönem Wetter steht den Kindern der Schulhof zur Verfügung. Wenn Sie Interesse an dem Betreuungsangebot haben, melden Sie sich doch bitte einfach in der Schule. Dort wird Ihnen weitergeholfen.

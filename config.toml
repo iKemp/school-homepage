@@ -87,9 +87,9 @@ Der Sportunterricht findet im Bürgerhaus Anzefahr statt."""
     # Portfolio modals
 	[params.portfolio.modal]
         client = "Client"
-        date = "Date"
-        category = "Category"
-        buttonText = "Close"
+        date = "Datum"
+        category = "Kategorie"
+        buttonText = "Schließen"
 
     # Aside section
 	[params.aside]
