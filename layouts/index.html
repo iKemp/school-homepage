@@ -44,6 +44,10 @@
             {{ partial "modals.html" . }}
         {{ end }}
 
+        {{ if .Site.Params.footer }}
+            {{ partial "footer.html" . }}
+        {{ end }}
+
         {{ partial "js.html" . }}
 
         {{ template "_internal/google_analytics.html" . }}

@@ -1,0 +1,8 @@
+{{ "<!-- ASIDE -->" | safeHTML }}
+<footer class="bg-dark">
+    <div class="container text-center">
+        {{ with .Site.Params.footer }}
+            <a href="{{ .url }}">{{ .name }}</a>       
+        {{ end }}
+    </div>
+</footer>

@@ -58,6 +58,11 @@ Am Standort Niederwald werden aktuell 18 Kinder in Klasse 2 und 21 Kinder in Kla
 Der Sportunterricht findet im Bürgerhaus Anzefahr statt."""
 		#buttonText  = "Get started!"
 
+    # Footer section
+    [params.footer]
+        name = "Impressum"
+        url = "/impressum/"
+
 
 	# Service section
 	[params.services]

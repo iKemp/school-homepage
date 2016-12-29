@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+
+<head>
+  {{ partial "head.html" . }}
+</head>
+
+<body id="page-top">
+
+  <div id="all">
+
+    <header>
+      {{ partial "nav.html" . }}
+    </header>
+
+    <div id="content">
+      {{ if isset .Params "id" }} {{ partial .Params.id . }} {{ else }}
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-md-12">
+
+            {{ .Content }}
+
+          </div>
+
+        </div>
+        <!-- /.row -->
+
+      </div>
+      <!-- /.container -->
+
+      {{ end }}
+    </div>
+    <!-- /#content -->
+
+  </div>
+  <!-- /#all -->
+
+  {{ partial "js.html" . }}
+
+</body>
+
+</html>
