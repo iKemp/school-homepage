@@ -16,6 +16,22 @@ h6 {
 }
 */
 
+.parallax {
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 768px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
 /*
     gmaps style
 */
