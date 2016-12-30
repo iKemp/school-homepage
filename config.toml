@@ -1,4 +1,4 @@
-baseurl = "https://example.org/"
+baseurl = "http://test.grundschule-anzefahr-niederwald.de/"
 languageCode = "de-DE"
 title = "Grundschule Anzefahr-Niederwald"
 theme = "hugo-creative-theme"
@@ -30,7 +30,7 @@ googleAnalytics = ""
 	# Navigation
 	[params.navigation]
 		brand = "Grundschule Anzefahr-Niederwald"
-
+ 
 		[params.navigation.links]
 			about     = "Über uns"
 			services  = "Ziele"
@@ -125,7 +125,7 @@ Der Sportunterricht findet im Bürgerhaus Anzefahr statt."""
 	[params.location]
 	 	latitude  = "50.82812"
 	 	longitude = "8.88123"
-		maps_api_key = ""
+		maps_api_key = "AIzaSyADWFNGGFj-L8qCGIJg794q9r8Fe9_4rX0"
 		
 		# kinda dirty way to add second marker for anzefahr
 		latitude2  = "50.846523"
