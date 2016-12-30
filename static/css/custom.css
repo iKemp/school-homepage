@@ -32,6 +32,10 @@ h6 {
     }
 }
 
+.text-faded p {
+    color: rgba(255,255,255,.7);
+}
+
 /*
     gmaps style
 */
