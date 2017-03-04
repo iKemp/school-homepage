@@ -5,9 +5,11 @@
   {{ partial "head.html" . }}
 </head>
 
-<body id="page-top">
+<body id="page-top-single">
 
   <div id="all">
+
+    {{ partial "navsingle.html" . }}
 
     <div id="content">
       {{ if isset .Params "id" }} {{ partial .Params.id . }} {{ else }}
