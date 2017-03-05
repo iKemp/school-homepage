@@ -15,6 +15,8 @@ banner = "img/banners/school-bus.jpg"
 **07:35 Uhr** Anzefahr Waldstraße  
 **07:40 Uhr** Niederwald Grundschule  
 
+<!--more-->
+
 ## Abfahrt
 
 ### Nach der 4. Stunde:

@@ -9,6 +9,8 @@ banner = "img/banners/pause.jpg"
 ### 07:35 Uhr - 07:50 Uhr 
 Schulweg, Ankommen, Begrüßen, Spielen, ...
 
+<!--more-->
+
 ### 07:50 Uhr - 09:20 Uhr
 Arbeitsphase I
 
