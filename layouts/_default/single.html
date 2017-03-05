@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+
+<head>
+  {{ partial "head.html" . }}
+</head>
+
+<!--
+  TODO double check with list.html and universal theme _default/single.html
+  also add archetype for easier adding of posts
+  -->
+
+<body id="page-top-single">
+
+  <div id="all">
+
+    {{ partial "navsingle.html" . }}
+
+    <div id="content">
+      {{ if isset .Params "id" }} {{ partial .Params.id . }} {{ else }}
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-md-12">
+
+            {{ .Content }}
+
+          </div>
+
+        </div>
+        <!-- /.row -->
+
+      </div>
+      <!-- /.container -->
+
+      {{ end }}
+    </div>
+    <!-- /#content -->
+
+  </div>
+  <!-- /#all -->
+
+  {{ partial "js.html" . }}
+
+</body>
+
+</html>

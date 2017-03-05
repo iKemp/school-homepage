@@ -18,6 +18,11 @@
             <ul class="nav navbar-nav navbar-right">
 
                 <!-- TODO add custom links before -->
+                {{ range .Site.Params.navigation.pre.links }}
+                    <li>
+                        <a href="{{ .url }}">{{ .name }}</a>
+                    </li>
+                {{ end }}
 
                 {{ if and .Site.Params.about .Site.Params.navigation.links.about }}
                     <li>

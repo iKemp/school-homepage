@@ -4,6 +4,13 @@ title = "Grundschule Anzefahr-Niederwald"
 theme = "hugo-creative-theme"
 googleAnalytics = ""
 
+# Define the number of posts per page
+paginate = 10
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
 [params]
 
 	# You can use Markdown syntax for urls [text](//url.to/source) for
@@ -26,11 +33,17 @@ googleAnalytics = ""
 	# The path must be relative to the static folder
 	favicon = "favicon.ico"
 
+    # Format dates with Go's time formatting
+    date_format = "January 2, 2006"
 
 	# Navigation
 	[params.navigation]
 		brand = "Grundschule Anzefahr-Niederwald"
  
+        [[params.navigation.pre.links]]
+            name = "Aktuelles"
+            url  = "/blog"
+
 		[params.navigation.links]
 			about     = "Über uns"
 			services  = "Ziele"
@@ -46,6 +59,11 @@ googleAnalytics = ""
 		subtitle   = "Peter Petersen"
 		buttonText = "Wollen Sie mehr erfahren?"
 
+    # Enable and disable widgets for the right sidebar
+    [params.widgets]
+        categories = true
+        tags = true
+        search = true
 
 	# About section
 	[params.about]
