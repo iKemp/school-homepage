@@ -1,7 +1,7 @@
 +++
 title = "Stundenpläne und Pausenzeiten"
 date = "2017-03-05T13:50:46+02:00"
-tags = ["plan"]
+tags = ["plan", "2016/2017"]
 categories = ["info"]
 banner = "img/banners/pause.jpg"
 +++

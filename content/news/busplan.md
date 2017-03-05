@@ -1,7 +1,7 @@
 +++
 title = "Busfahrplan"
 date = "2017-03-05T13:50:46+02:00"
-tags = ["plan", "bus"]
+tags = ["plan", "bus", "2016/2017"]
 categories = ["info"]
 banner = "img/banners/school-bus.jpg"
 +++
