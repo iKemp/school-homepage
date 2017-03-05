@@ -30,6 +30,42 @@ h6 {
     color: #f05f40;
 }
 
+section.post {
+    padding: 10px 0;
+}
+section.post h1, 
+section.post h2,
+section.post h3 {
+    margin-top: 0px;
+}
+#blog-listing-medium .post .author-category {
+  float: left;
+  color: #999999;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+}
+#blog-listing-medium .post .author-category a {
+  font-weight: 500;
+}
+#blog-listing-medium .post .date-comments {
+  float: right;
+  font-size: 12px;
+}
+#blog-listing-medium .post .date-comments a {
+  color: #999999;
+  margin-right: 20px;
+}
+#blog-listing-medium .post .date-comments a:hover {
+  color: #f05f40;
+}
+@media (min-width: 768px) {
+  #blog-listing-medium .post .date-comments {
+    text-align: right;
+  }
+}
+
 .panel.panel-default.sidebar-menu{
     border-color: #fff;
 }
