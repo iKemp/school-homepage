@@ -179,19 +179,19 @@ Hausmeistern und zwei Reinigungskräften unterstützt.
       name = "Katja Wessel"
       position = "Schulleiterin"
       #reportsTo = "CTO"
-      livesIn = "[Marburg, Deutschland](#some-maps-url)"
+      #livesIn = "[Marburg, Deutschland](#some-maps-url)"
       scope = [
         "Klassenlehrerin der [Eulenklasse](#)"
       #  "Maintainer for [awesome-project](#)",
       #  "Open Source [community management](#)"
       ]
       # For bio markdown and even multiline strings are available.
-      bio = """Katja Wessel ist Schulleiterin seit 200x und Klassenlehrerin der Eulenklasse."""
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
+      bio = """Katja Wessel ist die Schulleiterin und Klassenlehrerin der Eulenklasse."""
+      #social = [
+      #  ["fa-twitter", "#"],
+      #  ["fa-facebook", "#"],
+      #  ["fa-linkedin", "#"]
+      #]
 
 	[[params.team.members]]
       img = "Nuhn.jpg"
