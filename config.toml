@@ -1,4 +1,4 @@
-baseurl = "http://grundschule-anzefahr-niederwald.de/"
+baseurl = "http://www.grundschule-anzefahr-niederwald.de/"
 languageCode = "de-DE"
 title = "Grundschule Anzefahr-Niederwald"
 theme = "hugo-creative-theme"
