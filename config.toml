@@ -175,7 +175,7 @@ Hausmeistern und zwei Reinigungskräften unterstützt.
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
-      img = "Katja_Wessel.jpg"
+      img = "wessel.jpg"
       name = "Katja Wessel"
       position = "Schulleiterin"
       #reportsTo = "CTO"
@@ -218,12 +218,12 @@ Hausmeistern und zwei Reinigungskräften unterstützt.
       	"Klassenlehrerin der [Affenklasse](#)"
       ]
 
+    [[params.team.members]]
+      img = "irion.jpg"
+      name = "Frau Irion"
+      position = "BFZ Lehrerin"
+
 	[[params.team.members]]
-      img = "Siekmann.jpg"
-      name = "Frau Siekmann"
-      position = "BFZ-Lehrerin"
-      
-	[[params.team.members]]
-      img = "Imkamp.jpg"
-      name = "Herr Imkamp"
-      position = "BFZ-Lehrer"
+      img = "koch.jpg"
+      name = "Pfarrer Koch"
+      position = "Religionslehrer"
