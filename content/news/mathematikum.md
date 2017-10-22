@@ -7,4 +7,6 @@ banner = "img/banners/photos.jpg"
 +++
 
 Am 22.06.2017 haben die Eulen das Mathematikum besucht.
-Bilder des Ausflugs finden Sie <a href="https://photos.app.goo.gl/OsrjWpj7ZD0EdAjr1" target="_blank">hier</a>.
+Bilder des Ausflugs finden Sie <a href="https://photos.app.goo.gl/ZQu4SZZnVfFTkt872" target="_blank">hier</a>.
+
+
