@@ -20,8 +20,7 @@ lcd $LCD;
 cd $RCD;
 mirror --reverse \
        $DELETE \
-       --verbose
-       --exclude-glob static/img/Xheader.xcf"
+       --verbose"
 
 #mirror --reverse \
 #       $DELETE \

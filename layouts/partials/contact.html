@@ -48,8 +48,26 @@
                     <i class="fa fa-address-card-o fa-3x wow bounceIn"></i>
                     <address>
                         <strong>{{ .Site.Params.contact.address.name }}</strong><br>
+                        {{ .Site.Params.contact.address.addendum }}<br>
                         {{ .Site.Params.contact.address.street }}<br>
                         {{ .Site.Params.contact.address.site }}<br>
+                    </address>
+                </div>
+            {{ end }}
+            {{ if .Site.Params.contact.address2 }}
+                <div class="
+                {{ if .Site.Params.contact.address2 }}
+                    col-lg-6
+                {{ else }}
+                    col-lg-8
+                {{ end }}
+                 text-center">
+                    <i class="fa fa-address-card-o fa-3x wow bounceIn"></i>
+                    <address>
+                        <strong>{{ .Site.Params.contact.address2.name }}</strong><br>
+                        {{ .Site.Params.contact.address2.addendum }}<br>
+                        {{ .Site.Params.contact.address2.street }}<br>
+                        {{ .Site.Params.contact.address2.site }}<br>
                     </address>
                 </div>
             {{ end }}

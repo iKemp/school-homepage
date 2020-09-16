@@ -149,8 +149,15 @@ Hausmeistern und zwei Reinigungskräften unterstützt.
 
 		[params.contact.address]
 			name = "Grundschule Anzefahr-Niederwald"
+			addendum = "Standort Niederwald"
 			street = "Obergasse 20"
-			site = "35274 Kirchhain"
+			site = "35274 Kirchhain-Niederwald"
+		
+        [params.contact.address2]
+			name = "Grundschule Anzefahr-Niederwald"
+            addendum = "Standort Anzefahr"
+			street = "Schulweg 5"
+			site = "35274 Kirchhain-Anzefahr"
 
 	# Google Maps section
 	[params.location]
