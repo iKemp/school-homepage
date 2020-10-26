@@ -9,3 +9,15 @@ Build static pages and start the server
 ```
 $ hugo server -D
 ```
+
+# Update
+
+Generate files
+```
+$ hugo -D
+```
+
+Upload
+```
+$ ./sync.sh
+```
