@@ -131,13 +131,19 @@ Hausmeistern und zwei Reinigungskräften unterstützt.
 	[params.aside]
 		headline = "Interessieren Sie sich für den Förderverein?"
 
-		[[params.aside.button]]
-			text = "Flyer"
-			link = "/download/Flyer.pdf"
+        [[params.aside.link]]
+            pre = "Besuchen Sie uns auf unserer"
+            post = ""
+            title = "Homepage"
+			link = "http://fv-gs-anzefahr-niederwald.de/"
 
-            [[params.aside.button]]
-			text = "Beitrittserklaerung"
-			link = "/download/Beitrittserklaerung.pdf"
+		#[[params.aside.button]]
+		#	text = "Flyer"
+		#	link = "/download/Flyer.pdf"
+
+        #[[params.aside.button]]
+		#	text = "Beitrittserklaerung"
+		#	link = "/download/Beitrittserklaerung.pdf"
 
 	# Contact section
 	[params.contact]

@@ -9,6 +9,14 @@
                     <a href="{{ .link }}" class="btn btn-default btn-xl wow tada">{{ .text }}</a>
                 {{ end }}
             {{ end }}
+
+            {{ range .Site.Params.aside.link }}
+                {{ if and .link .title }}
+                    <p>
+                    {{ .pre }} <a href="{{ .link }}" target="_blank" class="wow tada">{{ .title }}</a> {{ .post }}
+                    </p>
+                {{ end }}
+            {{ end }}
         </div>
     </div>
 </aside>
