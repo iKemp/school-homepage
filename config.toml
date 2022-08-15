@@ -188,7 +188,7 @@ Hausmeistern und zwei Reinigungskräften unterstützt.
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
-      img = "wessel.jpg"
+      img = "wessel02.jpg"
       name = "Katja Wessel"
       position = "Schulleiterin"
       #reportsTo = "CTO"
@@ -215,14 +215,6 @@ Hausmeistern und zwei Reinigungskräften unterstützt.
       ]
       bio = """Frau Nuhn ist Fachlehrerin für Sport und Schwimmen."""
 
-	[[params.team.members]]
-      img = "Velten.jpg"
-      name = "Frau Velten"
-      position = "Klassenlehrerin"
-      scope = [
-      	"Klassenlehrerin der [Tigerklasse](#)"
-      ]
-	
 	[[params.team.members]]
       img = "Barho.jpg"
       name = "Frau Barho"
