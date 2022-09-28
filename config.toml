@@ -94,6 +94,9 @@ Hausmeistern und zwei Reinigungskräften unterstützt.
         name = "Impressum"
         url = "/impressum/"
 
+        [params.footer.privacy]
+            name = "Datenschutzerklärung"
+            url = "privacystatement"
 
 	# Service section
 	[params.services]
@@ -167,7 +170,8 @@ Hausmeistern und zwei Reinigungskräften unterstützt.
 
 	# Google Maps section
 	[params.location]
-	 	latitude  = "50.82812"
+        ### disabled maps till DSGVO issue is solved
+	 	#latitude  = "50.82812"
 	 	longitude = "8.88123"
 		maps_api_key = "AIzaSyADWFNGGFj-L8qCGIJg794q9r8Fe9_4rX0"
 		
