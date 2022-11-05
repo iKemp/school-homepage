@@ -80,7 +80,7 @@ paginate = 10
 	# About section
 	[params.about]
 		headline    = "Unsere Schule"
-        #buttonText  = "Get started!"
+    #buttonText  = "Get started!"
 		description = """
 Die Grundschule Anzefahr-Niederwald ist eine einzügige Grundschule südlich von Kirchhain, 
 im schönen Ohmtal gelegen. Im aktuellen Schuljahr 2022/2023 besuchen 67 Schüler und 
@@ -100,6 +100,20 @@ Der Sportunterricht findet im Bürgerhaus Anzefahr statt.
 Die Schule wird bei den nicht-pädagogischen Aufgaben von einer Sekretärin, einem 
 Hausmeister und zwei Reinigungskräften unterstützt.
 """
+
+  [[params.about.locations]]
+    name = "Anzefahr"
+    description = """
+hier kann text stehen
+"""
+    gallery = "/img/locations/anzefahr"
+  
+  [[params.about.locations]]
+    name = "Niederwald"
+    description = """
+hier kann text stehen
+"""
+    gallery = "/img/locations/niederwald"
 
 #{{< image-gallery gallery_dir="/img/locations/niederwald" >}}
 

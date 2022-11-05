@@ -12,12 +12,38 @@
                 {{ with .Site.Params.about.description }}
                     <div class="text-faded"><p>{{ . | markdownify }}</p></div>
                 {{ end }}
+
+                {{ range .Site.Params.about.locations }}
+                    <h3>{{ .name }}</h3>
+                    <hr class="light">
+                    {{ with .description }}
+                    <div class="text-faded"><p>{{ . | markdownify }}</p></div>
+                    {{ end }}
+                    {{ with .gallery }}
+                        {{ partial "image-gallery" (dict "context" . "gallery_dir" . ) }}
+                    {{ end }}
+                {{ end }}
+
                 {{ with .Site.Params.about.buttonText }}
                     <a href="#" class="btn btn-default btn-xl">{{ . }}</a>
                 {{ end }}
+            </div>
+        </div>
+    </div>
 
+    <!--
+    <div class="container">
+        <div class="row">
+            <div class="col col-lg-4 col-lg-offset-2 text-center">
+                One of three columns
+                {{ partial "image-gallery" (dict "context" . "gallery_dir" "/img/locations/niederwald") }}
+            </div>
+            <div class="col col-lg-4 col-lg-offset-2 text-center">
+                One of three columns
                 {{ partial "image-gallery" (dict "context" . "gallery_dir" "/img/locations/anzefahr") }}
             </div>
         </div>
     </div>
+    -->
+
 </section>

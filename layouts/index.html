@@ -24,12 +24,12 @@
             {{ partial "portfolio.html" . }}
         {{ end }}
 
-        {{ if .Site.Params.aside }}
-            {{ partial "aside.html" . }}
-        {{ end }}
-
         {{ if .Site.Params.team }}
             {{ partial "team.html" . }}
+        {{ end }}
+
+        {{ if .Site.Params.aside }}
+            {{ partial "aside.html" . }}
         {{ end }}
 
         {{ if .Site.Params.location }}
