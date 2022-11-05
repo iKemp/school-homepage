@@ -1,0 +1,15 @@
+{{ "<!-- jQuery -->" | safeHTML }}
+<script src="{{ "js/jquery.js" | absURL }}"></script>
+{{ "<!-- Bootstrap Core JavaScript -->" | safeHTML }}
+<script src="{{ "js/bootstrap.min.js" | absURL }}"></script>
+{{ "<!-- Plugin JavaScript -->" | safeHTML }}
+<script src="{{ "js/jquery.easing.min.js" | absURL }}"></script>
+<script src="{{ "js/jquery.fittext.js" | absURL }}"></script>
+<script src="{{ "js/wow.min.js" | absURL }}"></script>
+{{ "<!-- removed gmap due to dsvg issue -->" | safeHTML }}
+{{ if .Site.Params.location }}
+{{ end }}
+{{ "<!-- Custom Theme JavaScript -->" | safeHTML }}
+<script src="{{ "js/creative.js" | absURL }}"></script>
+{{ "<!-- Lightbox image gallery JavaScript -->" | safeHTML }}
+<script src="{{ "js/lightbox.js" | absURL }}"></script>
