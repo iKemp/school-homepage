@@ -1,4 +1,4 @@
-baseurl = "http://www.grundschule-anzefahr-niederwald.de/"
+baseurl = "http://grundschule-anzefahr-niederwald.de/"
 languageCode = "de-DE"
 title = "Grundschule Anzefahr-Niederwald"
 theme = "hugo-creative-theme"
@@ -71,22 +71,22 @@ paginate = 10
         #buttonText  = "Get started!"
 		description = """
 Die Grundschule Anzefahr-Niederwald ist eine einzügige Grundschule südlich von Kirchhain, 
-im schönen Ohmtal gelegen. Im aktuellen Schuljahr 2016/2017 besuchen 73 Schüler und 
-Schülerinnen aus den Dörfern Anzefahr, Niederwald und Sindersfeld, sowie auch Kinder aus 
-Stausebach unsere Schule. 
+im schönen Ohmtal gelegen. Im aktuellen Schuljahr 2022/2023 besuchen 67 Schüler und 
+Schülerinnen aus den Dörfern Anzefahr, Niederwald und Sindersfeld, Stausebach sowie 
+Himmelsberg unsere Schule. 
 Der Unterricht findet in 4 Lerngruppen an zwei Standorten statt: 
 
-Am Standort Anzefahr werden im laufenden Schuljahr 14 Kinder in Klasse 3 und 20 Kinder in 
+Am Standort Anzefahr werden im laufenden Schuljahr 14 Kinder in Klasse 3 und 19 Kinder in 
 Klasse 4 unterrichtet.
 
-Am Standort Niederwald werden aktuell 18 Kinder in Klasse 2 und 21 Kinder in Klasse 1 
+Am Standort Niederwald werden aktuell 16 Kinder in Klasse 1 und 18 Kinder in Klasse 2 
 unterrichtet. Dort befindet sich auch die Schulbetreuung, in der in diesem Schuljahr 25 
 Kinder von 3 Betreuerinnen betreut werden.
 
 Der Sportunterricht findet im Bürgerhaus Anzefahr statt.
 
-Die Schule wird bei den nicht-pädagogischen Aufgaben von einer Sekretärin, zwei 
-Hausmeistern und zwei Reinigungskräften unterstützt.
+Die Schule wird bei den nicht-pädagogischen Aufgaben von einer Sekretärin, einem 
+Hausmeister und zwei Reinigungskräften unterstützt.
 """
 
     # Footer section
@@ -186,7 +186,7 @@ Hausmeistern und zwei Reinigungskräften unterstützt.
     center = true
     title = "Unser Team"
     subtitle = "Die höchste Form der Kommunikation ist der Dialog. <br/><cite>-- August Everding</cite>"
-    description = "An der Grundschule Anzefahr-Niederwald arbeiten derzeit 6 KollegInnen."
+    description = "An der Grundschule Anzefahr-Niederwald arbeiten derzeit 8 KollegInnen."
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
@@ -198,7 +198,7 @@ Hausmeistern und zwei Reinigungskräften unterstützt.
       #reportsTo = "CTO"
       #livesIn = "[Marburg, Deutschland](#some-maps-url)"
       scope = [
-        "Klassenlehrerin der [Eulenklasse](#)"
+        "Klassenlehrerin der [Storchenklasse](#)"
       #  "Maintainer for [awesome-project](#)",
       #  "Open Source [community management](#)"
       ]
@@ -209,28 +209,48 @@ Hausmeistern und zwei Reinigungskräften unterstützt.
       #  ["fa-facebook", "#"],
       #  ["fa-linkedin", "#"]
       #]
-
-	[[params.team.members]]
-      img = "Nuhn.jpg"
-      name = "Frau Nuhn"
+	
+    [[params.team.members]]
+      img = "Marx.png"
+      name = "Frau Marx"
       position = "Klassenlehrerin"
       scope = [
-      	"Klassenlehrerin der [Pinguinklasse](#)"
+      	"Klassenlehrerin der [Fledermausklasse](#)"
       ]
-      bio = """Frau Nuhn ist Fachlehrerin für Sport und Schwimmen."""
+      bio = """Frau Marx ist die ständige Vertretung und Fachlehrerin für Englisch."""
 
 	[[params.team.members]]
       img = "Barho.jpg"
       name = "Frau Barho"
       position = "Klassenlehrerin"
       scope = [
-      	"Klassenlehrerin der [Affenklasse](#)"
+      	"Klassenlehrerin der [Fuchsklasse](#)"
       ]
+      bio = """Frau Barho ist Fachlehrerin für Religion."""
+
+	[[params.team.members]]
+      img = "Geil.jpg"
+      name = "Herr Geil"
+      position = "Klassenlehrer"
+      scope = [
+      	"Klassenlehrer der [Eisbärenklasse](#)"
+      ]
+      bio = """Herr Geil ist Fachlehrer für Sport und Schwimmen."""
 
     [[params.team.members]]
       img = "irion.jpg"
       name = "Frau Irion"
       position = "BFZ Lehrerin"
+
+    [[params.team.members]]
+      img = "Patte.jpeg"
+      name = "Herr Patte"
+      position = "Lehrer im Vorbereitungsdienst"
+
+    [[params.team.members]]
+      img = "Schulz.jpg"
+      name = "Frau Schulz"
+      position = "Sozialpädagogin"
 
 	[[params.team.members]]
       img = "koch.jpg"

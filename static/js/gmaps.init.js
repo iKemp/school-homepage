@@ -1,7 +1,7 @@
 /* global GMaps: true */
 
 $(document).ready(function () {
-  map()
+  //map()
 })
 
 function map () {
